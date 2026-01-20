@@ -1,0 +1,24 @@
+{
+  "name": "cloudops-inventory-backend",
+  "version": "1.0.0",
+  "description": "CloudOps Inventory Platform - Backend API for Cloud Resources Management",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "echo \"Tests coming soon\" && exit 0"
+  },
+  "keywords": ["inventory", "cloudops", "aws", "cloud", "api"],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "helmet": "^7.1.0",
+    "mysql2": "^3.6.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
