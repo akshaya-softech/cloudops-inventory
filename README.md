@@ -14,3 +14,4 @@ Cloud-Native Inventory Management System built with:
 - `/infrastructure` - Terraform IaC
 - `/.github/workflows` - CI/CD pipelines
 "@ | Out-File -FilePath "README.md" -Encoding UTF8
+
