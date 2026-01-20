@@ -11,7 +11,7 @@ availability_zones = ["eu-central-1a", "eu-central-1b"]
 db_instance_class = "db.t3.micro"
 db_name           = "inventory_db"
 db_username       = "cloudops_user"
-db_password       = "YourSecurePassword123!"  # Change this!
+db_password       = "YourSecurePassword123!" # Change this!
 
 # ECS
 container_cpu    = 256
