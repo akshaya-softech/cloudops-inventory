@@ -10,8 +10,6 @@ node_modules/
 .terraform/
 *.tfstate
 *.tfstate.backup
-*.tfvars
-!environments/dev/terraform.tfvars
 .terraform.lock.hcl
 
 # IDE
