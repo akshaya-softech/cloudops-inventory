@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "CloudOps Inventory Platform - Backend API for Cloud Resources Management",
   "main": "src/index.js",
+  
+  "overrides": {
+  "yaml": "^2.4.2"
+  },
   "scripts": {
     "start": "node src/index.js",
     "dev": "nodemon src/index.js",
