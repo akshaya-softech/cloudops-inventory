@@ -13,5 +13,6 @@ Cloud-Native Inventory Management System built with:
 - `/backend` - Node.js API
 - `/infrastructure` - Terraform IaC
 - `/.github/workflows` - CI/CD pipelines
+
 "@ | Out-File -FilePath "README.md" -Encoding UTF8
 
