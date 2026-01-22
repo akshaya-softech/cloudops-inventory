@@ -62,7 +62,7 @@ jobs:
         id: plan
         run: |
           terraform plan \
-            -var-file="environments/dev/terraform.tfvars" \
+            -var-file="terraform.tfvars" \
             -var="db_password=${{ secrets.DB_PASSWORD }}" \
             -out=tfplan \
             -no-color
@@ -80,7 +80,7 @@ jobs:
         if: github.event.inputs.action == 'destroy' && github.ref == 'refs/heads/main'
         run: |
           terraform destroy \
-            -var-file="environments/dev/terraform.tfvars" \
+            -var-file="terraform.tfvars" \
             -var="db_password=${{ secrets.DB_PASSWORD }}" \
             -auto-approve
 
