@@ -1,7 +1,5 @@
 import axios from 'axios';
 
-// Use HTTP not HTTPS for ALB
-//const API_BASE_URL = process.env.REACT_APP_API_URL || 'http://cloudops-inventory-alb-558045272.eu-central-1.elb.amazonaws.com/api';
 const API_BASE_URL = process.env.REACT_APP_API_URL || 'https://d2qvf4eug1nlfb.cloudfront.net/api';
 
 const api = axios.create({
